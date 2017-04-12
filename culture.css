@@ -1,0 +1,116 @@
+/* General */
+
+
+body {
+	margin: auto;
+	background-color: lightblue;
+	font-family: arial;
+}
+div#wrapper {
+	width:90%;
+	margin: auto;
+}
+/* Added from adam */
+header {
+    background-color: #686e77;
+    height: 150px;
+}
+header h1 {
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 5%;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+nav a {
+    color: #3297FD;
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 18px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #2D89E5;
+    color: #fff;
+}
+
+/*Start of mine again */
+
+h2.compCult {
+	text-align: center;
+	font-weight: 400;
+	font-style: italic;
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+
+img {
+	display: block;
+
+}
+
+/* Main Div */
+
+div.main {
+	float: left;
+	width: 70%;
+}
+
+img.pour {
+	float: right;
+	border-radius: 100px;
+	margin-top: -50px;
+
+}
+
+img.shake {
+	width: 100%;
+	border-radius: 20px;
+}
+
+img.meditation {
+	width: 50%;
+	border-radius: 30px;
+	margin-bottom: 20px;
+}
+
+
+/* Side Div */
+div.side {
+	float: right;
+	width: 25%;
+}
+
+img.side {
+	display: inline-block;
+}
+img.fun {
+	width: 90%;
+	border-radius: 40px;
+}
+
+/* footer */
+
+footer {
+   background-color: #686e77;
+   border: 1px solid #686e77;
+   clear: both;
+}
+
+footer h4 {
+   color: white;
+   text-align: center;
+}
