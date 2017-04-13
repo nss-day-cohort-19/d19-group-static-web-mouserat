@@ -1,0 +1,96 @@
+
+
+
+
+
+body {
+	margin: auto;
+	width: 100%;
+	background-color: lightblue;
+}
+
+header {
+    background-color: #686e77;
+    height: 150px;
+}
+header h1 {
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    margin: 0;
+    font-family: arial;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: arial;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+nav a {
+    color: #3297FD;
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 18px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #2D89E5;
+    color: #fff;
+}
+
+.us-4 {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	/*THIS COMBO IS REQUIRED TO GET IT CENTERED (INLINE BLOCK AND BLOCK IN SEPARATE DIVS*/
+	display: block;
+}
+
+h2 {
+	text-align: center;
+	font-family: arial;
+}
+
+div {
+	display: inline-block;
+	font-family: arial;
+}
+
+.jackie {
+	background-color: #66CDAA;
+}
+.adam {
+	background-color: #00BFFF;
+}
+.nick {
+	background-color: #00FFFF;
+}
+.pete {
+	background-color: #00FA9A;
+}
+
+.member {
+	border: 2px solid black;
+	border-radius: 5%;
+	width: 20%;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+}
+
+footer {
+	text-align: center;
+	background-color: #686e77;
+}
+
+img {
+	border: 10px solid darkslateblue;
+	border-radius: 5%;
+}
+
+
+
