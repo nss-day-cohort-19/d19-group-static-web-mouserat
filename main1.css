@@ -88,3 +88,91 @@ footer h4 {
     text-align: right;
     margin-bottom: 10em;
 }
+
+/*Product Page*/
+
+
+
+.product-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.product1, .product2, .product3, .product4 {
+    border: 1px solid black;
+    display: inline-block;
+    width: 20%;
+    margin: 1.5%;
+    background-color: white;
+    color: black;
+}
+
+.product5 {
+    border: 1px solid black;
+    width: 20%;
+    margin: 1.5%;
+    background-color: white;
+    color: black;
+    clear: both;
+    float: left;
+}
+ .product6, .product7, .product8{
+    border: 1px solid black;
+    float: left;
+    width: 20%;
+    margin: 1.5%;
+    background-color: white;
+    color: black;
+}
+
+.resize {
+    width: 100px;
+    height: 100px;
+}
+
+.round {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+.center {
+    text-align: center;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    margin-right: 40px;
+}
+
+.candle {
+    font-size: 2em;
+    font-weight: 800;
+    text-align: left;
+
+}
+
+.wrapper {
+    width: 90%
+    margin: 0 auto;
+}
+
+.pretty {
+    width: 100%;
+    overflow: hidden;
+}
+
+img.move {
+    margin-top: -20px;
+}
+
+main {
+    width: 60%;
+    float: left;
+    margin-left: 40px;
+    text-align: left;
+}
